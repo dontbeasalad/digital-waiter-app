@@ -55,16 +55,34 @@ export default function Footer() {
             <h4 className="text-main-color text-2xl font-bold mt-9 mb-6 lg:mb-9 lg:mt-0 ">
               Ikuti Kami
             </h4>
-            <div className="flex flex-col lg:flex-row w-full">
-              <ul className="flex flex-col justify-center items-center lg:block lg:mr-28"></ul>
+            <div className="flex ">
+              <ul className="flex justify-center items-center  lg:mr-28">
+                <li className="cursor-pointer px-2">
+                  <Link href="#">
+                    <img src="/ig.png" alt="" />
+                  </Link>
+                </li>
+                <li className="cursor-pointer px-2">
+                  <Link href="#">
+                    <img src="/fb.png" alt="" />
+                  </Link>
+                </li>
+                <li className="cursor-pointer px-2">
+                  <Link href="#">
+                    <img src="/twt.png" alt="" />
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="solution lg:w-3/12 flex flex-col justify-center items-center lg:block">
             <h4 className="text-main-color text-2xl font-bold mt-9 mb-6 lg:mb-9 lg:mt-0 ">
               Download
             </h4>
-            <div className="flex flex-col lg:flex-row w-full">
-              <ul className="flex flex-col justify-center items-center lg:block lg:mr-28"></ul>
+            <div className="cursor-pointer">
+              <Link href="#">
+                <img src="/gplay.png" alt="" />
+              </Link>
             </div>
           </div>
         </div>

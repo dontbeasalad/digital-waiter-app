@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <header>
-      <nav className="flex items-center fixed bg-white w-full justify-evenly flex-wrap p-6 shadow-md px-36">
+      <nav className="flex items-center fixed bg-white w-full justify-evenly flex-wrap z-50 p-6 shadow-md px-36">
         <div className="hidden lg:flex items-center flex-shrink-0 text-black mr-12">
           <span className="font-semibold text-xl tracking-tight">Logo</span>
         </div>
@@ -11,13 +11,13 @@ export default function Navbar() {
           <div className="lg:flex-grow ">
             <ul className="flex">
               <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-sky-blue mr-6">
-                <Link href="#fitur">Fitur</Link>
+                <Link href="/#fitur">Fitur</Link>
               </li>
               <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-sky-blue mr-6">
-                <Link href="#harga">Harga</Link>
+                <Link href="/#harga">Harga</Link>
               </li>
               <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-sky-blue mr-6">
-                <Link href="#testimonial">Testimonial</Link>
+                <Link href="/#testimonial">Testimonial</Link>
               </li>
               <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-sky-blue mr-6">
                 <Link href="/faq">FAQ</Link>
@@ -25,12 +25,11 @@ export default function Navbar() {
             </ul>
           </div>
           <div>
-            <a
-              href="#"
-              className="inline-block text-sky-blue font-bold mt-4 lg:mt-0"
-            >
-              Daftar
-            </a>
+            <Link href="/daftar">
+              <a className="inline-block text-sky-blue font-bold mt-4 lg:mt-0">
+                Daftar
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
