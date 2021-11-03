@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../component/navbar";
+import Navbar from "../components/navbar";
 import Link from "next/link";
-import Testi from "../component/testimonial";
-import Footer from "../component/footer";
+import Testi from "../components/testimonial";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
