@@ -14,7 +14,7 @@ export default function faq() {
           </h1>
         </div>
       </div>
-      <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 place-items-stretch mt-12 mx-4 xl:mx-14 py-12">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 place-items-stretch mt-12 mx-4 xl:mx-14 py-12">
         <Link href="#1">
           <div className="flex justify-between  p-6 transition-all rounded-xl border-2 border-sky-blue border-opacity-25 cursor-pointer hover:bg-sky-blue hover:bg-opacity-25">
             <p className="font-semibold text-md">Apa itu Digital Waiter</p>

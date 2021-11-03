@@ -18,11 +18,11 @@ export default function faq() {
           <h2 className="text-3xl font-bold mb-9">
             Yuk, daftar dan dapatkan promonya!
           </h2>
-          <form className="pb-8 mb-4 ">
+          <htmlForm className="pb-8 mb-4 ">
             <div className="mb-2">
               <label
                 className="block mb-2 text-sm font-bold text-gray-500"
-                for="lastName"
+                htmlFor="lastName"
               >
                 Nama
               </label>
@@ -37,7 +37,7 @@ export default function faq() {
             <div className="mb-2">
               <label
                 className="block mb-2 text-sm font-bold text-gray-500"
-                for="lastName"
+                htmlFor="lastName"
               >
                 Nama Restoran
               </label>
@@ -51,7 +51,7 @@ export default function faq() {
             <div className="mb-2">
               <label
                 className="block mb-2 text-sm font-bold text-gray-500"
-                for="email"
+                htmlFor="email"
               >
                 Email
               </label>
@@ -65,7 +65,7 @@ export default function faq() {
             <div className="mb-2">
               <label
                 className="block mb-2 text-sm font-bold text-gray-500"
-                for="email"
+                htmlFor="email"
               >
                 No. Hp
               </label>
@@ -83,7 +83,7 @@ export default function faq() {
             >
               <p className="md:mr-2 text-sm md:text-base text-right">Daftar</p>
             </button>
-          </form>
+          </htmlForm>
         </div>
       </section>
       <Footer />
