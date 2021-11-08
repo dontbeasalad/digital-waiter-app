@@ -4,8 +4,20 @@ import Navbar from "../components/navbar";
 import Link from "next/link";
 import Testi from "../components/testimonial";
 import Footer from "../components/footer";
+import tawkTo from "tawkto-react";
+import React, { useEffect } from "react";
+
+const tawkToPropertyId = "618152106885f60a50b9fbf1";
+
+// Direct Chat Link
+// https://tawk.to/chat/tawkToPropertyId/tawkToKey
+
+const tawkToKey = "1fjgih5pi";
 
 export default function Home() {
+  useEffect(() => {
+    tawkTo(tawkToPropertyId, tawkToKey);
+  }, []);
   return (
     <>
       <main className="text-text-color">
@@ -27,10 +39,10 @@ export default function Home() {
             </div>
             <div className="mt-6 flex justify-center flex-col lg:block ">
               <button className="text-white transition-all rounded-3xl font-bold bg-sky-blue hover:text-sky-blue border hover:border-sky-blue hover:bg-white px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-                <Link href="/">Daftar sekarang</Link>
+                <Link href="/daftar">Daftar sekarang</Link>
               </button>
               <button className="text-sky-blue rounded-3xl font-bold border border-sky-blue bg-white  px-6 lg:px-9 py-3 ">
-                <Link href="/">Kenali lebih lanjut</Link>
+                <Link href="#fitur">Kenali lebih lanjut</Link>
               </button>
             </div>
             <ul className="mt-6">
@@ -122,7 +134,7 @@ export default function Home() {
               </li>
             </ul>
             <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-              <Link href="/">Daftar sekarang </Link>{" "}
+              <Link href="/daftar">Daftar sekarang </Link>{" "}
               <img src="6.png" className="ml-4" width="24" alt="" />
             </button>
           </div>
@@ -290,7 +302,7 @@ export default function Home() {
               </li>
             </ul>
             <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-              <Link href="/">Daftar sekarang </Link>{" "}
+              <Link href="/daftar">Daftar sekarang </Link>{" "}
               <img src="6.png" className="ml-4" width="24" alt="" />
             </button>
           </div>
@@ -326,7 +338,7 @@ export default function Home() {
               </li>
             </ul>
             <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-              <Link href="/">Daftar sekarang </Link>{" "}
+              <Link href="/daftar">Daftar sekarang </Link>{" "}
               <img src="6.png" className="ml-4" width="24" alt="" />
             </button>
           </div>
@@ -357,7 +369,7 @@ export default function Home() {
               </li>
             </ul>
             <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-              <Link href="/">Daftar sekarang </Link>{" "}
+              <Link href="/daftar">Daftar sekarang </Link>{" "}
               <img src="6.png" className="ml-4" width="24" alt="" />
             </button>
           </div>
@@ -389,7 +401,7 @@ export default function Home() {
               </li>
             </ul>
             <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-              <Link href="/">Daftar sekarang </Link>{" "}
+              <Link href="/daftar">Daftar sekarang </Link>{" "}
               <img src="6.png" className="ml-4" width="24" alt="" />
             </button>
           </div>

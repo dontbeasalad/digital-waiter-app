@@ -198,7 +198,7 @@ export default function faq() {
             </li>
           </ul>
           <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-            <Link href="/">Daftar sekarang </Link>{" "}
+            <Link href="/daftar">Daftar sekarang </Link>{" "}
             <img src="6.png" className="ml-4" width="24" alt="" />
           </button>
         </div>
@@ -239,7 +239,7 @@ export default function faq() {
           </p>
 
           <button className="text-sky-blue flex transition-all rounded-3xl font-bold  lg:y-9 py-3 lg:mr-4 mb-3">
-            <Link href="/">Daftar sekarang </Link>{" "}
+            <Link href="/daftar">Daftar sekarang </Link>{" "}
             <img src="6.png" className="ml-4" width="24" alt="" />
           </button>
         </div>
@@ -294,7 +294,7 @@ export default function faq() {
             </li>
           </ul>
           <button className="text-sky-blue flex transition-all rounded-3xl font-bold px-6 lg:px-9 py-3 lg:mr-4 mb-3">
-            <Link href="/">Daftar sekarang </Link>{" "}
+            <Link href="/daftar">Daftar sekarang </Link>{" "}
             <img src="6.png" className="ml-4" width="24" alt="" />
           </button>
         </div>
@@ -375,7 +375,7 @@ export default function faq() {
           </p>
 
           <button className="text-sky-blue flex transition-all rounded-3xl font-bold  lg:y-9 py-3 lg:mr-4 mb-3">
-            <Link href="/">Daftar sekarang </Link>{" "}
+            <Link href="/daftar">Daftar sekarang </Link>{" "}
             <img src="6.png" className="ml-4" width="24" alt="" />
           </button>
         </div>
