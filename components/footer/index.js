@@ -53,9 +53,17 @@ export default function Footer() {
               <li className="flex mb-2 lg:mb-4">
                 <Link
                   className="hover:text-main-color hover:underline"
-                  href="/faq"
+                  href="https://www.flick.id/faq/user/akun"
                 >
                   FAQ
+                </Link>
+              </li>
+              <li className="flex mb-2 lg:mb-4">
+                <Link
+                  className="hover:text-main-color hover:underline"
+                  href="https://www.flick.id/contact-us"
+                >
+                  Kontak Kami
                 </Link>
               </li>
             </ul>
@@ -67,12 +75,12 @@ export default function Footer() {
             <div className="flex ">
               <ul className="flex justify-center items-center  lg:mr-28">
                 <li className="cursor-pointer px-2">
-                  <Link href="https://www.facebook.com/SilviKasir/">
+                  <Link href="https://www.instagram.com/silvi.indonesia/">
                     <img src="/ig.png" alt="" />
                   </Link>
                 </li>
                 <li className="cursor-pointer px-2">
-                  <Link href="https://www.instagram.com/silvi.indonesia/">
+                  <Link href="https://www.facebook.com/SilviKasir/">
                     <img src="/fb.png" alt="" />
                   </Link>
                 </li>
