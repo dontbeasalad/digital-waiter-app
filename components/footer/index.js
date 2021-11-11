@@ -85,7 +85,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="cursor-pointer px-2">
-                  <Link href="https://www.instagram.com/silvi.indonesia/">
+                  <Link href="https://twitter.com/silvi_indonesia">
                     <img src="/twt.png" alt="" />
                   </Link>
                 </li>

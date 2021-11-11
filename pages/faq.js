@@ -126,7 +126,7 @@ export default function faq() {
             />
           </div>
         </Link>
-        <Link href="#9">
+        <Link href="#8">
           <div className="flex justify-between  p-6 transition-all rounded-xl border-2 border-sky-blue border-opacity-25 cursor-pointer hover:bg-sky-blue hover:bg-opacity-25">
             <p className="font-semibold text-md">
               Bagaimana cara mengatasi error ?
