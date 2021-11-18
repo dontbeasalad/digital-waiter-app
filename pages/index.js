@@ -6,6 +6,8 @@ import Testi from "../components/testimonial";
 import Footer from "../components/footer";
 import tawkTo from "tawkto-react";
 import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const tawkToPropertyId = "618152106885f60a50b9fbf1";
 
@@ -18,12 +20,18 @@ export default function Home() {
   useEffect(() => {
     tawkTo(tawkToPropertyId, tawkToKey);
   }, []);
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <main className="text-text-color">
         <Navbar />
 
-        <section className="pt-36 flex flex-col  lg:flex-row justify-center lg:mx-20 mx-4 mb-20 ">
+        <section
+          data-aos="fade-up"
+          className="pt-36 flex flex-col  lg:flex-row justify-center lg:mx-20 mx-4 mb-20 "
+        >
           <div className="order-2 lg:order-1">
             <div>
               <p className="font-bold text-xl mb-4">
@@ -65,7 +73,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="fitur" className="pt-16 mb-20">
+        <section data-aos="fade-up" id="fitur" className="pt-16 mb-20">
           <div className="bg-blue   bg-sky-blue flex flex-col xl:flex-row justify-center items-center xl:p-16">
             <div className="mr-0 xl:mr-36 order-2 xl:order-1">
               <img src="hp1.png" width="250" alt="" />
@@ -103,7 +111,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex flex-col xl:flex-row justify-center items-center mb-20 pt-16 mx-4 xl:mx-36">
+        <section
+          data-aos="fade-up"
+          className="flex flex-col xl:flex-row justify-center items-center mb-20 pt-16 mx-4 xl:mx-36"
+        >
           <div className="xl:mr-36">
             <h2 className="text-4xl font-bold mb-9">
               Kasir online pintar untuk catat transaksi tanpa ribet
@@ -275,7 +286,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex flex-col xl:flex-row justify-center items-cemter  mb-20 pt-16 mx-4 xl:mx-36">
+        <section
+          data-aos="fade-up"
+          className="flex flex-col xl:flex-row justify-center items-cemter  mb-20 pt-16 mx-4 xl:mx-36"
+        >
           <div className="cursor-pointer order-2 xl:order-1 ">
             <img src="/card.png" width="1400" alt="" />
           </div>
@@ -307,7 +321,10 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="flex flex-col xl:flex-row justify-center items-center  mb-20 pt-16 mx-4 xl:mx-36">
+        <section
+          data-aos="fade-up"
+          className="flex flex-col xl:flex-row justify-center items-center  mb-20 pt-16 mx-4 xl:mx-36"
+        >
           <div className="cursor-pointer order-2">
             <img src="/card2.png" width="1200" alt="" />
           </div>
@@ -343,7 +360,10 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="flex flex-col xl:flex-row justify-center items-center  mb-20 pt-16 mx-4 xl:mx-36">
+        <section
+          data-aos="fade-up"
+          className="flex flex-col xl:flex-row justify-center items-center  mb-20 pt-16 mx-4 xl:mx-36"
+        >
           <div className="cursor-pointer order-2 xl:order-1">
             <img src="/card3.png" width="1400" alt="" />
           </div>
@@ -374,7 +394,10 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="flex flex-col xl:flex-row justify-center  mb-20 pt-16 mx-4 xl:mx-36">
+        <section
+          data-aos="fade-up"
+          className="flex flex-col xl:flex-row justify-center  mb-20 pt-16 mx-4 xl:mx-36"
+        >
           <div className="cursor-pointer order-2">
             <img src="/card4.png" width="1400" alt="" />
           </div>
@@ -408,7 +431,11 @@ export default function Home() {
         </section>
         <Testi />
 
-        <section id="harga" className="pt-20 mb-20 mx-4 xl:mx-36">
+        <section
+          data-aos="fade-up"
+          id="harga"
+          className="pt-20 mb-20 mx-4 xl:mx-36"
+        >
           <h2 className="text-4xl font-bold mb-9">
             Yuk! Ikutan berbagi cerita inspiratif dengan berlangganan
           </h2>
